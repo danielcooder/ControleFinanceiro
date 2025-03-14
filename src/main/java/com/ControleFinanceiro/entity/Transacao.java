@@ -17,9 +17,6 @@ public class Transacao {
     private Long idTransacao;
 
 
-
-
-
 ///Me informe sobre este bloco 2
     @Schema(example = "Compra supermercado")
     private String descricao;
@@ -28,21 +25,16 @@ public class Transacao {
     private double valor;
 
 
-
     ///Me informe sobre este bloco 3
     @Enumerated(EnumType.STRING) // Indicação do tipo de enum referenciado
     @Schema(example = "RECEITA")
     private TipoTransacao tipo;
-
-
-
 
     ///Me informe sobre este bloco 4
     @Column(name = "data")
     @JsonFormat(pattern = "dd-MM-yyyy") // Anotação para auxiliar a serialização com design definido
     @Schema(example = "23-02-2025")
     private LocalDate data;
-
 
 
     ///Me informe sobre este bloco 5
