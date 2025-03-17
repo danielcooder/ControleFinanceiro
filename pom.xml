@@ -12,10 +12,10 @@
 		<relativePath/>
 	</parent>
 
-	<groupId>com.controle_financeiro</groupId>
-	<artifactId>controle_financeiro</artifactId>
+	<groupId>com.ControleFinanceiro</groupId>
+	<artifactId>ControleFinanceiro</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>controle_financeiro</name>
+	<name>ControleFinanceiro</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
@@ -76,15 +76,15 @@
 			<artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
 			<version>2.1.0</version>
 		</dependency>
-		<dependency>
-			<groupId>org.flywaydb</groupId>
-			<artifactId>flyway-core</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>org.postgresql</groupId>
-			<artifactId>postgresql</artifactId>
-			<version>42.3.1</version>
-		</dependency>
+			<dependency>
+				<groupId>org.flywaydb</groupId>
+				<artifactId>flyway-core</artifactId>
+			</dependency>
+			<dependency>
+				<groupId>org.postgresql</groupId>
+				<artifactId>postgresql</artifactId>
+				<version>42.3.1</version>
+			</dependency>
 	</dependencies>
 
 	<build>
