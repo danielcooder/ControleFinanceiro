@@ -1,5 +1,5 @@
 # 💰 Controle Financeiro API 🏦  
-Este projeto é uma API de controle financeiro desenvolvida com Spring Boot, utilizando JPA para persistência de dados e Lombok para redução de código boilerplate. A API permite gerenciar pessoas e suas transações financeiras, com suporte para cálculo de saldos, receitas e despesas  
+Este projeto é uma API de controle financeiro desenvolvida com Spring Boot, utilizando JPA para persistência de dados e Lombok para redução de código. A API permite gerenciar pessoas e suas transações financeiras, com suporte para cálculo de saldos, receitas e despesas  
 
 ## 🚀 Tecnologias  
 - **Spring Boot** → Estrutura principal da API.  
