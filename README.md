@@ -50,7 +50,8 @@ http://localhost:8080/swagger-ui.html
 🔗 Endpoints
 A API fornece endpoints para gerenciar pessoas e transações.
 
-## Pessoas:
+## 🔗 Endpoints Principais:
+### Pessoas:
 
 - GET /pessoas → Lista todas as pessoas.
 - GET /pessoas/{id} → Retorna uma pessoa pelo ID.
@@ -58,7 +59,7 @@ A API fornece endpoints para gerenciar pessoas e transações.
 - PUT /pessoas/{id} → Atualiza uma pessoa existente.
 - DELETE /pessoas/{id} → Remove uma pessoa.
 
-## Transações:
+### Transações:
 
 - GET /transacoes → Lista todas as transações.
 - GET /transacoes/{id} → Retorna uma transação pelo ID.
