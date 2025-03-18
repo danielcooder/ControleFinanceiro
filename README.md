@@ -58,11 +58,3 @@ A API possui três entidades principais:
 - POST /transacoes/{pessoaId} → Cria uma transação associada a uma pessoa.
 - PUT /transacoes/{id} → Atualiza uma transação existente.
 
-<br>
-
-## 📖 Documentação e Endpoints  
-
-A documentação da API está disponível via **Swagger**. Para acessá-la, inicie o projeto e vá para:  
-
-```bash
-http://localhost:8080/swagger-ui.html
