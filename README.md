@@ -42,14 +42,6 @@ A API possui três entidades principais:
    ```sh
    mvn spring-boot:run
 
-Acesse a documentação da API via Swagger em:
-bash
-Copiar
-Editar
-http://localhost:8080/swagger-ui.html
-🔗 Endpoints
-A API fornece endpoints para gerenciar pessoas e transações.
-
 ## 🔗 Endpoints Principais:
 ### Pessoas:
 
@@ -66,4 +58,11 @@ A API fornece endpoints para gerenciar pessoas e transações.
 - POST /transacoes/{pessoaId} → Cria uma transação associada a uma pessoa.
 - PUT /transacoes/{id} → Atualiza uma transação existente.
 
+<br>
 
+## 📖 Documentação e Endpoints  
+
+A documentação da API está disponível via **Swagger**. Para acessá-la, inicie o projeto e vá para:  
+
+```bash
+http://localhost:8080/swagger-ui.html
